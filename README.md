@@ -65,14 +65,14 @@ The following preprocessing steps were applied:
 * Missing value handling
 
 * Label Encoding
-      * Female = 0
-      * Male = 1
+   * Female = 0
+   * Male = 1
 * Feature Scaling using StandardScaler
 
 * Selection of clustering variables
-      * Age
-      * Annual Income (k$)
-      * Spending Score (1-100)
+  * Age
+  * Annual Income (k$)
+  * Spending Score (1-100)
   
 ##  Machine Learning Models
 
@@ -84,9 +84,9 @@ The following preprocessing steps were applied:
  Results
  | Metric           | Value                 |
 | ---------------- | --------------------- |
-| Optimal Clusters | Replace from notebook |
-| Silhouette Score | Replace from notebook |
-| Inertia          | Replace from notebook |
+| Optimal Clusters | 6 |
+| Silhouette Score | 0.4284 |
+| Inertia          |  |
 
 
 * Hierarchical Clustering
@@ -97,16 +97,18 @@ The following preprocessing steps were applied:
  Results
 | Metric           | Value                 |
 | ---------------- | --------------------- |
-| Optimal Clusters | Replace from notebook |
-| Silhouette Score | Replace from notebook |
+| Optimal Clusters | 6 |
+| Silhouette Score | 0.4201 |
 
 ## Model Comparison
 
 | Metric           | K-Means | Hierarchical |
 | ---------------- | ------- | ------------ |
-| Optimal Clusters | XX      | XX           |
-| Silhouette Score | XX      | XX           |
-| ARI Score        | XX      | XX           |
+| Optimal Clusters | 6     | 6          |
+| Silhouette Score | 0.4284     | 0.4201           |
+
+* Adjusted Rand Index (ARI): 0.87
+* Indicates strong agreement between K-Means and Hierarchical cluster assignments.
 
 ## Customer Segments
 
@@ -124,7 +126,7 @@ The clustering process identifies customer groups such as:
 * Young Big Spenders
    * Lower Income
    * High Spending
-*Conservative Customers
+* Conservative Customers
    * Lower Income
    * Lower Spending
 

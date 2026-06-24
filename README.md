@@ -39,14 +39,14 @@ The dataset was analyzed using:
 ##  Machine Learning Models
 
 *  K-Means Clustering
-* Optimal clusters selected using Elbow Method and Silhouette Score
-* Customers grouped into meaningful segments
-* Cluster centers analyzed in original scale
+   * Optimal clusters selected using Elbow Method and Silhouette Score
+   * Customers grouped into meaningful segments
+   * Cluster centers analyzed in original scale
 
 * Hierarchical Clustering
-* Dendrogram used for visualization
-* Optimal clusters selected using silhouette score
-* Compared with K-Means results
+   * Dendrogram used for visualization
+   * Optimal clusters selected using silhouette score
+   * Compared with K-Means results
 ##  Evaluation Metrics
 
 * Silhouette Score – measures cluster quality

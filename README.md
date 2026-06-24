@@ -58,7 +58,7 @@ The dataset was analyzed using:
 * High-income low-spending customers require targeted marketing
 * Young high-spending customers form a valuable segment
 * Clustering helps in personalized business strategies
-## 💡 Future Improvements
+##  Future Improvements
 
 * Use advanced clustering (DBSCAN, Gaussian Mixture Models)
 * Deploy as a web app/dashboard

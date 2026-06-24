@@ -65,14 +65,14 @@ The following preprocessing steps were applied:
 * Missing value handling
 
 * Label Encoding
-      Female = 0
-      Male = 1
+      * Female = 0
+      * Male = 1
 * Feature Scaling using StandardScaler
 
 * Selection of clustering variables
-      Age
-      Annual Income (k$)
-      Spending Score (1-100)
+      * Age
+      * Annual Income (k$)
+      * Spending Score (1-100)
   
 ##  Machine Learning Models
 
@@ -81,8 +81,8 @@ The following preprocessing steps were applied:
    * Customers grouped into meaningful segments
    * Cluster centers analyzed in original scale
  
-   Results
-| Metric           | Value                 |
+ Results
+ | Metric           | Value                 |
 | ---------------- | --------------------- |
 | Optimal Clusters | Replace from notebook |
 | Silhouette Score | Replace from notebook |

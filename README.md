@@ -19,7 +19,7 @@ This project aims to:
 * Identify groups of customers with similar purchasing behavior
 * Discover high-value customer segments
 * Support targeted marketing and customer retention strategies
-* Improve business decision-making through data-driven segmentation##  Objectives
+* Improve business decision-making through data-driven segmentation
 
 ## Dataset 
 
@@ -86,8 +86,6 @@ The following preprocessing steps were applied:
 | ---------------- | --------------------- |
 | Optimal Clusters | 6 |
 | Silhouette Score | 0.4284 |
-| Inertia          |  |
-
 
 * Hierarchical Clustering
    * Dendrogram used for visualization
@@ -108,7 +106,7 @@ The following preprocessing steps were applied:
 | Silhouette Score | 0.4284     | 0.4201           |
 
 * Adjusted Rand Index (ARI): 0.87
-* Indicates strong agreement between K-Means and Hierarchical cluster assignments.
+  * Indicates strong agreement between K-Means and Hierarchical cluster assignments.
 
 ## Customer Segments
 
